@@ -24,4 +24,5 @@ function prependDriver(n){
 }
 function removeLastDriver(n){
   const newAray=drivers.slice(-1)
+  return newAray
 }
