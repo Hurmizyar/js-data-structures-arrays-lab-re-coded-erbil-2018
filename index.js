@@ -22,11 +22,11 @@ function prependDriver(n){
   newAray.unshift(n)
   return newAray
 }
-function removeLastDriver(n){
+function removeLastDriver(){
   const newAray=drivers.slice(0,-1)
   return newAray
 }
-function removeFirstDriver(n){
+function removeFirstDriver(){
   const newAray=drivers.splice(0,1)
   return newAray
 }
