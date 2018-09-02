@@ -27,6 +27,6 @@ function removeLastDriver(){
   return newAray
 }
 function removeFirstDriver(){
-  const newAray=drivers.splice(0,1)
+  const newAray=drivers.slice(1)
   return newAray
 }
