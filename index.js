@@ -1,2 +1,2 @@
 // Write your solution here!
-function driver(){["Milo", "Otis", "Garfield"]}
+driver=["Milo", "Otis", "Garfield"];
