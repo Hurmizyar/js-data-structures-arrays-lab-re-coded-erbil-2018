@@ -23,6 +23,6 @@ function prependDriver(n){
   return newAray
 }
 function removeLastDriver(n){
-  const newAray=drivers.slice(-1)
+  const newAray=drivers.slice(0,-1)
   return newAray
 }
